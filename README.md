@@ -1,16 +1,22 @@
-# tdd_clean_architecture_bloc
+# A Test Driven Development and Clean Architecture using BLOC.
 
-A Test Driven Development and Clean Architecture using BLOC.
 
-## Getting Started
+## Clone and start project
+Before discovering folders lets first perform some actions to make the project ready to launch
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- To run in iOS you must have installed cocoapods in your mac , Let's **_delete Pods folder and Podfile.lock_** and run
+  ```
+  flutter clean
+  ```
+  ```
+  flutter pub get
+  ```
+  ```
+  cd ios
+  ```
+  ```
+  pod install
+  ```
+  ```
+  cd..
+  ```
